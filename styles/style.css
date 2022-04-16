@@ -6,3 +6,47 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    padding: 20px;
+}
+
+#section-one img {
+    width: 250px;
+    margin: 0px 760px 0px 0px;
+}
+
+#navigationmenu {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigationmenulist {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#navigationmenulist li {
+    padding: 0px 20px;
+}
+
+#navigationmenulist a {
+    text-decoration: none;
+    color: black;
+}
