@@ -13,7 +13,11 @@ White: #FFF
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-} 
+}
+
+body {
+    height: 100vh;
+}
 
 #section-one {
     display: flex;
@@ -47,6 +51,94 @@ White: #FFF
 }
 
 #navigationmenulist a {
+    transition-duration: 0.3s;
     text-decoration: none;
     color: black;
+}
+
+#navigationmenulist a:hover {
+    color: #1CB26A;
+}
+
+#section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 1100px;
+}
+
+#section-two div {
+    margin-bottom: 200px;
+}
+
+#section-two h1, #section-two p {
+    color: white;
+}
+
+#section-two h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 400;
+    margin-bottom: 40px
+}
+
+#section-two p {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 200;
+    margin-bottom: 12.5px
+}
+
+#section-three {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#section-three div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+#section-three article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.section-three-icon {
+    width: 22%;
+    margin: 0px 0px 22px 0px;
+}
+
+#section-three h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px 0px 5px 0px;
+}
+
+#section-three h4 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #1CB26A;
+    margin: 0px 0px 22px 0px;
+}
+
+#section-three p {
+    font-weight: 300;
+    color: rgb(118, 118, 118);
+    width: 55%;
+    text-align: center;
 }
