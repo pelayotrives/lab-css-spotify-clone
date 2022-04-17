@@ -113,6 +113,7 @@ body {
     align-content: center;
     align-items: center;
     padding: 30px;
+    width: 33%;
 }
 
 .section-three-icon {
@@ -139,6 +140,64 @@ body {
 #section-three p {
     font-weight: 300;
     color: rgb(118, 118, 118);
-    width: 55%;
+    width: 40%;
     text-align: center;
+}
+
+#section-four {
+    background-color: #1CB26A;
+    color: white;
+    margin: 0px 190px 0px 190px;
+    display: flex;
+    flex-direction: row;
+}
+
+#section-four h3 {
+    font-size: 33px;
+    font-weight: 400;
+    text-decoration: underline 2.5px;
+    margin-bottom: 60px;
+    text-underline-offset: 14px;
+}
+
+.text-bottom {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding: 70px 0px 50px 80px;
+}
+
+.images-bottom {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 70px 70px 50px 0px;
+}
+
+.article-no-bottom-margin {
+    margin-bottom: 35px;
+}
+
+.text-bottom article h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.text-bottom article p {
+    width: 38%;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#first-image-sec4 {
+    width: 18%;
+    margin-right: 130px;
+}
+
+#second-image-sec4 {
+    width: 45%;
 }
